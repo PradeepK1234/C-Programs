@@ -2,25 +2,38 @@
 
   #include<stdio.h>
   
-    main()
-    
-    {
-    	int a,b ;
-    	int add,sub,mul,div;
-    	
-    	printf("Enter to number");
-    	scanf("%d %d",&a,&b);
-    	
-    	add=a+b;
-    	sub=a-b;
-    	mul=a*b;
-    	div=a/b;
-    	
-    	printf("Addition = %d \n",add);
-    	
-    	printf("Sub = %d \n",sub);
-    	printf("Multi = %d \n",mul);
-    	printf("Div = %d \n",div);
-    	
-    	
-	}
+  
+   main()
+   
+   {
+   	 
+   	 int a,b,c;
+   	 
+   	 printf("Enter three number : ");
+   	 scanf("%d %d %d",&a,&b,&c);
+   	 
+   	 
+   	  if(a>b && a>c)
+   	  {
+   	  	
+   	  	printf("First number is big :");
+   	  	
+		 }
+		 
+		 else if(b>a && b>c)
+		 {
+		 	
+		 	printf("Second number is big :");
+		 	
+		 }
+		 
+		 else{
+		 	   printf("Third number is big.");
+		 	
+		 	
+		 }
+   	
+   	
+   	
+   	
+   }
