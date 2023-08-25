@@ -1,21 +1,25 @@
 
-
+  
    #include<stdio.h>
    
    main()
    {
-   	  int a,b,big;
+   	 int a;
    	  
-   	  printf("Enter two numbers");
-   	  scanf("%d %d",&a,&b);
+   	  printf("Enter a number ");
+   	  scanf("%d",&a);
    	  
-   	  big=(a>b)?(a):(b);
-   	  
-   	  printf("Bigger value is : %d ",big);
-   	   
-   	
-   	
-   	
-   	
+   	  if(a%2==0)
+   	  {
+   	  	 printf("Number is Even");
+   	  	
+		 }
+		 
+		 else{
+		 
+		       
+		       printf("Number is Odd.");
+		 
+		 }
    	
    }

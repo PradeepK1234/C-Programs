@@ -1,19 +1,30 @@
 
+// wap to check given number is upercase or lowercase.
 
-  // character print from given ASCII value.
-  
   #include<stdio.h>
   
   main()
   {
-  	int a;
+  	char ch;
+  	printf("Enter a character : ");
+  	scanf("%c",&ch);
   	
-  	printf("Enter Any ASCII value: ");
-  	scanf("%d",&a);
-  	
-  	printf("Character value of given ASCII value is: %c",a);
-  	
-  	
-  	
+  	if(ch>=65 && ch<=90)
+  	{
+  		printf("Upper Case");
+	  }
+	  
+	 else if(ch>=97 && ch<=122)
+	 {
+	 	printf("Lower case");
+	  } 
+  	else if(ch>=48 && ch<=57)
+  	{
+  		printf("Digit ");
+	  }
+	  
+	  else{
+	  	 printf("Special symbol");
+	  }
   	
   }

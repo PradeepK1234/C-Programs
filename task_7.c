@@ -1,18 +1,47 @@
 
-
+  // student grade.
+  
   #include<stdio.h>
   
   main()
   {
-  	int a,b,c;
+  	int m;
   	
-  	float avg;
+  	printf("enter marks out of 100 \n ");
+  	scanf("%d",&m);
   	
-  	printf("Enter three number \n");
-  	scanf("%d %d %d", &a,&b,&c);
+  	switch(m/10)
+  	{
+  		case  10: printf("A++ Grade");
+  		break;
+  		
+  		case 9: printf("A+ Grade");
+  		break;
+  		
+  		case 8: printf("A Grade ");
+  		break;
+  		
+  		case 7: printf("B Grade");
+  		break;
+  			
+     	case 6: printf("C Grade");
+  		break;
+  		
+  		case 5: printf("D Grade");
+  		break;
+  		
+  		case 4: printf("E Grade");
+  		break;
+  			
+       	default : printf("FAILL Grade");
+  		break;
+  			
+  		
+  		
+  		
+	  }
   	
-  	avg=(a+b+c)/3.0;
   	
-  	printf("Average of three number is %f",avg);
-  	  	
+  	
+  	
   }

@@ -1,25 +1,35 @@
 
-
-  #include<stdio.h>
-  
-   main()
-   {
-   	 int p,r,t ;
-   	 
-   	 float si;
-   	 
-   	 printf("Enter principal ammount :");
-   	 scanf("%d",&p);
-   	 
-   	 printf("Enter rate : ");
-   	 scanf("%d",&r);
-   	 
-   	 printf("Enter time durition :");
-   	 scanf("%d",&t);
-   	 
-   	 si=(p*r*t)/100.0;
-   	 
-   	 printf("SI values = %f",si);
-   	
-   	
-   }
+ #include<stdio.h> 
+ 
+  main()
+  {
+  	 int ch;
+  	 printf("Enter User choice:");
+  	 scanf("%d",&ch);
+  	 switch(ch)
+  	 {
+  	 	
+  	 	case 1: printf("Monday");
+  	 	break;
+  	 	case 2: printf("Tuseday");
+  	 	break;
+  	 	
+  	 	case 3: printf("Wednesday");
+  	 	break;
+  	 	case 4: printf("Thursday");
+  	 	break;
+  	 	case 5: printf("Friday");
+  	 	break;
+  	 	case 6: printf("Saturday");
+  	 	break;
+  	 	case 7: printf("Sunday");
+  	 	break;
+  	 	default : printf("Invalid User Choice");
+  	 	
+  	 	
+	   }
+  	
+  	
+  	
+  	
+  }
