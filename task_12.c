@@ -1,25 +1,26 @@
 
 
  #include<stdio.h>
- 
- main()
- {
- 	int a,b;
- 	
- 	printf("Enter first number: A=");
- 	scanf("%d",&a);
- 	
- 	printf("Enter second number: B=");
- 	scanf("%d",&b);
- 	
- 	a=a+b;
- 	b=a-b;
-    a=a-b; 	
- 	
- 	printf("Value in A= %d \n",a);
- 	printf("Value in B= %d",b);
- 	
- 	
- 	
- 	
- }
+  
+  main()
+  {
+  	int i,j;
+  	
+  	for(i=1;i<=5;i++)
+  	{
+  	
+  	for(j=1;j<=5;j++)
+  	{
+	 
+  	  if(j<=6-i)
+  	    printf("*");
+  	  else
+  	    printf(" ");
+  	
+  	 }
+  	   printf("\n");
+  	
+  	  }
+
+  	
+  }

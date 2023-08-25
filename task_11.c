@@ -1,14 +1,31 @@
 
-#include<stdio.h>
+  #include<stdio.h>   
+  
+  main()
+  {
+  	
+  	int j,i;
+  	
+  	for(i=1;i<=5;i++)
+	  {
+	  
+	  for(j=1;j<=5;j++)
+	  
+	  {  
+	     if()
+	  	 printf("*");
+	  	else
+	  	printf(" ");
+	  	
+	  	
+	  }
+	   	printf("\n");
 
-main()
-{
-	char c;
-	
-	printf("Enter any character from keyboard :");
-	scanf("%c",&c);
-	
-	printf(" ASCII value of given character is: %d",c);
-	
-	
-}
+	  
+	  
+	  
+	  
+	  }
+  	
+  	
+  }
