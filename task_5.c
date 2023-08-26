@@ -1,30 +1,23 @@
 
-// wap to check given number is upercase or lowercase.
-
-  #include<stdio.h>
-  
-  main()
-  {
-  	char ch;
-  	printf("Enter a character : ");
-  	scanf("%c",&ch);
-  	
-  	if(ch>=65 && ch<=90)
-  	{
-  		printf("Upper Case");
-	  }
-	  
-	 else if(ch>=97 && ch<=122)
-	 {
-	 	printf("Lower case");
-	  } 
-  	else if(ch>=48 && ch<=57)
-  	{
-  		printf("Digit ");
-	  }
-	  
-	  else{
-	  	 printf("Special symbol");
-	  }
-  	
-  }
+ #include<stdio.h>
+ main()
+ {
+ 	int x,r,s=0;
+ 	
+ 	printf("Enter a number: \n");
+ 	scanf("%d",&x);
+ 	
+ 	while(x!=0)
+ 	{
+ 		r=x%10;
+ 		s=s+r;
+ 		x=x/10;
+ 		
+ 		
+ 		
+	 }
+ 	printf("Sum of digits = %d",s);
+ 	
+ 	
+ 	
+ }

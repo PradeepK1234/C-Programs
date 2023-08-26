@@ -1,5 +1,4 @@
 
-
   #include<stdio.h>
   
   main()
@@ -35,11 +34,6 @@
   	 	
   	 	default : printf("invalid choice");
   	 	
-  	 	
-  	 	
 	   }
-  	
-  	
-  	
   	
   }

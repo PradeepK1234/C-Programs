@@ -1,33 +1,22 @@
 
 
-  #include<stdio.h>
-  
-  main()
-  {
-  	  int n;
-  	  
-  	  printf("Enter a number :");
-  	  scanf("%d",&n);
-  	  
-  	  if(n>0)
-  	  {
-  	  	 printf("Number is positive.");
-  	  	
+    #include<stdio.h>
+    
+    main()
+    {
+    	int num,count;
+    	printf("Enter a number :");
+    	scanf("%d",&num);
+    	
+    	printf("Multiplication table for %d is : \n",num);
+    	for(count=1;count<=10;count++)
+    	{
+    		printf("%d*%d = %d \n",num,count,(num*count));
+    		
+    		
 		}
-		
-		else if(n<0){
-			
-			printf("Number is Negative.");
-			
-		}
-		else
-		{
-			
-			printf("Number is eual to Zero.");
-			
-		}
-  	
-  	
-  	
-  	
-  }
+    	
+    	
+    	
+    	
+	}

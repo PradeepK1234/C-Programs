@@ -1,39 +1,21 @@
 
+
  #include<stdio.h>
  
- main()
- {
- 	int year;
- 	printf("Enter a number");
- 	scanf("%d",&year);
- 	
- 	if(year%100==0)
- 	{
- 		  if(year%400==0)
- 		{
- 			printf("Leep year");
+   main()
+   {
+   	  int num,count,fact=1;
+   	  printf("Enter a number to find factorial \n");
+   	  scanf("%d",&num);
+   	  
+   	  for(count=1;count<=num;count++)
+   	  {
+   	  	
+   	  	fact=fact*count;
+   	  	
 		 }
- 		else{
- 			printf("Not a leep year");
-		 }
- 		
- 		
-	 }
- 	
- 	else{ 
- 	      if(year%4)
- 	      {
- 	      	printf("Leep year");
-		   }
- 		
- 		else{
- 			printf("Not a leep year");
- 			
-		 }
- 		
- 		
-	 }
- 	
- 	
- 	
- }
+   	  
+   	   printf("Factorial of %d is : %d",num,fact);
+   	
+   	
+   }

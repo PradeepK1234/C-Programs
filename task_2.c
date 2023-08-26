@@ -1,25 +1,21 @@
-
-  
-   #include<stdio.h>
-   
-   main()
-   {
-   	 int a;
-   	  
-   	  printf("Enter a number ");
-   	  scanf("%d",&a);
-   	  
-   	  if(a%2==0)
-   	  {
-   	  	 printf("Number is Even");
-   	  	
-		 }
-		 
-		 else{
-		 
-		       
-		       printf("Number is Odd.");
-		 
-		 }
-   	
-   }
+ 
+ 
+ #include<stdio.h>
+ main()
+ {
+ 	int x,y=0,r;
+ 	printf("Enter a number: \n");
+ 	scanf("%d",&x);
+ 	while(x!=0)
+ 	{
+ 		r=x%10;
+ 		y=y*10+r;
+ 		x=x/10;
+ 		
+	 }
+ 	   printf("Reverse is %d",y);
+ 	
+ 	
+ 	
+ 	
+ }

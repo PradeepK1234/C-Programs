@@ -1,47 +1,24 @@
 
-  // student grade.
-  
   #include<stdio.h>
   
-  main()
-  {
-  	int m;
-  	
-  	printf("enter marks out of 100 \n ");
-  	scanf("%d",&m);
-  	
-  	switch(m/10)
-  	{
-  		case  10: printf("A++ Grade");
-  		break;
-  		
-  		case 9: printf("A+ Grade");
-  		break;
-  		
-  		case 8: printf("A Grade ");
-  		break;
-  		
-  		case 7: printf("B Grade");
-  		break;
-  			
-     	case 6: printf("C Grade");
-  		break;
-  		
-  		case 5: printf("D Grade");
-  		break;
-  		
-  		case 4: printf("E Grade");
-  		break;
-  			
-       	default : printf("FAILL Grade");
-  		break;
-  			
-  		
-  		
-  		
-	  }
-  	
-  	
-  	
-  	
-  }
+   main()
+   {
+   	  int n,c,r,s=0;
+   	  
+   	  printf("Enter any number :\n");
+   	  scanf("%d",&n);
+   	  
+   	  c=n;
+   	  while(n>0)
+   	  {
+   	  	  r=n%10;
+   	  	  s=r+(s*10);
+   	  	  n=n/10;
+
+	}
+   	  if(c==s)
+   	  printf("Palindrom Number");
+   	  else
+   	  printf("Not a palindrom");
+   	
+   }

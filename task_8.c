@@ -1,35 +1,23 @@
 
- #include<stdio.h> 
- 
-  main()
-  {
-  	 int ch;
-  	 printf("Enter User choice:");
-  	 scanf("%d",&ch);
-  	 switch(ch)
-  	 {
-  	 	
-  	 	case 1: printf("Monday");
-  	 	break;
-  	 	case 2: printf("Tuseday");
-  	 	break;
-  	 	
-  	 	case 3: printf("Wednesday");
-  	 	break;
-  	 	case 4: printf("Thursday");
-  	 	break;
-  	 	case 5: printf("Friday");
-  	 	break;
-  	 	case 6: printf("Saturday");
-  	 	break;
-  	 	case 7: printf("Sunday");
-  	 	break;
-  	 	default : printf("Invalid User Choice");
-  	 	
-  	 	
-	   }
-  	
-  	
-  	
-  	
-  }
+
+  //wap in c to check a given number is prime or not;
+  
+   #include<stdio.h>
+   
+   main()
+   {
+   	  int num ,i ;
+   	  
+   	  printf("Enter a number");
+   	  scanf("%d",&num);
+   	  
+     for(i=2;i<=num-1;i++)
+        if(num%i==0)
+        break;
+     if(i==num)
+	     printf("%d is a prime number",num) ; 	
+   	   else
+   	       printf("%d is not a prime number",num);
+   	
+   	  } 
+

@@ -1,39 +1,22 @@
 
 
-  #include<stdio.h>
-  
-  
-   main()
-   
-   {
-   	 
-   	 int a,b,c;
-   	 
-   	 printf("Enter three number : ");
-   	 scanf("%d %d %d",&a,&b,&c);
-   	 
-   	 
-   	  if(a>b && a>c)
-   	  {
-   	  	
-   	  	printf("First number is big :");
-   	  	
+ #include<stdio.h>
+ 
+  main()
+  {
+  	   int N,i,a=-1,b=1,c;
+  	   printf("Enter a number");
+  	   scanf("%d",&N);
+  	   
+  	   for(i=1;i<=N;i++)
+  	   {
+  	   	  
+  	   	  c=a+b;
+  	   	  printf("%d ",c);
+  	   	  a=b;
+		  b=c;
+  	   	
+  	   	
 		 }
-		 
-		 else if(b>a && b>c)
-		 {
-		 	
-		 	printf("Second number is big :");
-		 	
-		 }
-		 
-		 else{
-		 	   printf("Third number is big.");
-		 	
-		 	
-		 }
-   	
-   	
-   	
-   	
-   }
+  	
+  }

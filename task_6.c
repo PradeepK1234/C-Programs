@@ -1,24 +1,26 @@
-
- #include<stdio.h>
+ 
+ #include<stdio.h.>
  
  main()
  {
- 	 char ch;
- 	 int LC ,UC ;
- 	 printf("Enter any character ");
- 	 scanf("%c",&ch);
- 	 
-    LC=(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u');
-    
-    UC=(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U');
-    
-    if(LC||UC)
-    {
-    	printf("%c is vowel",ch);
-	}
- 	else{
- 		printf("%c is consonent",ch);
+ 	int i ,sum=0,x;
+ 	printf("\n Enter no to check : ");
+ 	scanf("%d",&i);
+ 	x=i;
+ 	
+ 	while(i>0)
+ 	{
+ 	   sum=sum+(i%10)*(i%10)*(i%10)	;
+ 	   i=i/10; 
 	 }
  	
+ 	 if(sum==x)
+ 	 {
+ 	 	printf("\n armstrong Number.");
+ 	 	
+	  }
+	  else{
+	  	    printf("\n Not a armstrong number.");
+	  }
  	
  }

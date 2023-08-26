@@ -17,15 +17,9 @@
 	  	else
 	  	printf(" ");
 	  	
-	  	
 	  }
 	   	printf("\n");
 
-	  
-	  
-	  
-	  
 	  }
-  	
   	
   }
